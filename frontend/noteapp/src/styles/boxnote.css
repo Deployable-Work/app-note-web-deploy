@@ -1,0 +1,67 @@
+.note {
+    width: 21em;
+    height: 12em;
+    background-color: rgba(255, 255, 255, 0.30);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(5.0px);
+    transition:  0.5s ease-in-out;
+    border: 1px solid #ebd3b2;
+    margin-bottom: 0.8em;
+    overflow: hidden;
+    border-radius: 15px;
+}
+.titlenote {
+    width: 90%;
+    height: 2em;
+    padding: 7px;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.linkdiv {
+    text-decoration: none;
+    color: inherit;
+}
+
+.titlenote h3 {
+    width: 95%;
+    overflow: hidden;
+    white-space: nowrap;  
+    text-overflow: ellipsis;
+}
+    
+
+.textnote {
+    width: 100%;
+    height: 10em;
+    padding: 7px;
+    display: flex;
+}
+
+.btnarchive {
+    position: relative;
+    top: -2.5em;
+    width: 1em;
+}
+
+.btnarchive:hover {
+    color: white;
+    background-color: #242b5d57;
+    transition: 0.3s ease-out;
+}
+
+.btnarchive:active {
+    background-color: #242b5d;
+    transition: 0s;
+}
+
+.divarchive {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    padding: 0 6em;
+    height: 1.5em;
+    top: -2.5em;
+}

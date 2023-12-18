@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
+
+.dark-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); 
+  z-index: 51; 
+  opacity: 0;
+  pointer-events: none; 
+  transition: opacity 0.5s ease-in-out; 
+}
+
+.dark-overlay.active {
+  opacity: 1;
+  pointer-events: auto; 
+}
+
+body {
+  background-image: url("img/imgb.jpg");
+  /* overflow: hidden; */
+}
+
+/* body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.0);
+} */
+
+nav {
+  z-index: 99;
+  display: block;
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  padding-top: 10em;
+  border: 1px solid #ebd3b2;
+  background-color: rgba(255, 255, 255, 0.30);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4.0px);
+  transition:  0.5s ease-in-out;
+}
+
+.nav-hidden {
+  left: -253px;
+}
+
+.nav-visible {
+  left: 0px;
+}
+
+
+.buttonNav {
+  z-index: 100;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  width: 3em;
+  height: 3em;
+  border-radius: 10px;
+  margin-top: 6em;
+  background-color: rgba(255, 255, 255, 0.30);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5.0px);
+  transition:  0.5s ease-in-out;
+  border: 1px solid #ebd3b2;
+}
+
+.no-displace {
+  left: 20px;
+}
+
+.displace {
+  left: 190px;
+}
+
+.spanstyle{
+  /* background-color: #3B5A6F; */
+  width: 100%;
+  height: 4em;
+  display: flex;
+  margin-bottom: 2em;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 10px 10px 0;
+  color: #242b5d  ;
+  transition: 0.5s;
+}
+
+
+
+.spanstyle:hover{
+  /* background-color: #3B5A6F; */
+  background-color: white;
+  
+}
+
+.navstyle {
+  text-decoration: none;
+  width: 100%;
+} 

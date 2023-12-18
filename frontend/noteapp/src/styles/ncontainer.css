@@ -1,0 +1,9 @@
+.ncontainer {
+    display: flex;
+    justify-content: center;
+    align-items: self-start;
+    width: 100%;
+    height: 85.9vh; 
+    box-sizing: border-box;
+    overflow-y: auto;
+}

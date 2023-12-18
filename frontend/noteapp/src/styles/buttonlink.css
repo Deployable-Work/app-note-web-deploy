@@ -1,0 +1,18 @@
+.buttonl {
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    padding: 0 1em;
+    height: 3em;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.30);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(5.0px);
+    transition:  0.5s ease-in-out;
+    border: 1px solid #ebd3b2;
+    text-decoration: none;
+    color: #242b5d;
+    font-weight: bold;
+}
